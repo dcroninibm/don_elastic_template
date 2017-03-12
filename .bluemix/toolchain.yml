@@ -17,14 +17,14 @@ insights:
   
 
 # Github repos
-github-repo-brew:
+github-repo-elasticsearch:
   service_id: githubpublic
   parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
 #    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
-    repo_name: "Brew"
-    repo_url: "https://github.com/homebrew/brew.git"
+    repo_name: "Elasticsearch"
+    repo_url: "https://github.com/elastic/elasticsearch.git"
     type: link
     has_issues: true
   hidden: [form, description]
